@@ -1,6 +1,6 @@
 BlogXQ
 ======
-A simple Blog application written in XQuery 1.0
+A simple Blog application written in XQuery 1.0 and XSLT 2.0
 
 This currently powers the blog on adamretter.org.uk, and has some specific hard-coded parts which suit that website well. However, it could be adapted to work as a generic blog for any website with a little work.
 
