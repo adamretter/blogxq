@@ -9,3 +9,13 @@ This was originally written in a couple of days in a frenzy of hacking back in 2
 The code has some eXist-db (http://www.exist-db.org) specific functions calls, but again these could be asbtracted without too much difficulty to make the code platform independent. 
 
 The code is provided as an eXist-db database backup that may be restored. The entry point is http://www.adamretter.org.uk/blog.xql which probably translates to http://localhost:8080/exist/rest/db/adamretter.org.uk/blog.xql on most development installations of eXist-db.
+
+Features
+--------
+* Human Validation on forms using either reCaptcha or Asirra. Uses Asirra by default because it has Kitteh power.
+* Spam detection and rejection in posted comments using Akismet.
+* email notification of posted comments.
+* Editing/Authoring support using a XHTML version of ckeditor.
+* Atom feeds
+* RDFa/microformat embedded metadata in HTML
+* Its all in XML!
