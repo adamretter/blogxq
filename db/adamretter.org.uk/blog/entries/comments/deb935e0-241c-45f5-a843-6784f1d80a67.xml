@@ -1,0 +1,10 @@
+<blog:comment xmlns:blog="http://www.adamretter.org.uk/blog"
+    timestamp="2012-08-19T16:12:00.000+02:00" author="Gunther Rademacher" email="grd@gmx.de"
+    pending="false" id="deb935e0-241c-45f5-a843-6784f1d80a67"
+    entry-id="293e6704-2bc9-4447-b53b-e21753ef5f49">
+    Tokenization and matching might need some
+    consideration, too, but could not $x contains text "artery" ftand "plaque" distance at most 3
+    words be mapped in a more compact (and less generic) fashion, e.g. along the lines of let $words
+    := tokenize($x, " ") return some $i in index-of($words, "artery") satisfies $words[position() =
+    ($i - 3 to $i + 3)] = "plaque"
+</blog:comment>

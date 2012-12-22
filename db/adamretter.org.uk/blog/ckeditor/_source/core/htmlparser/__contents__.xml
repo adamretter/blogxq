@@ -1,0 +1,24 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/adamretter.org.uk/blog/ckeditor/_source/core/htmlparser" owner="admin" group="dba" mode="755" created="2010-09-14T16:56:30+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="basicwriter.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:06+01:00" modified="2010-09-14T16:50:06+01:00" filename="basicwriter.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="cdata.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:07+01:00" modified="2010-09-14T16:50:07+01:00" filename="cdata.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="comment.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:07+01:00" modified="2010-09-14T16:50:07+01:00" filename="comment.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="element.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:08+01:00" modified="2010-09-14T16:50:08+01:00" filename="element.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="filter.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:08+01:00" modified="2010-09-14T16:50:08+01:00" filename="filter.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="fragment.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:08+01:00" modified="2010-09-14T16:50:08+01:00" filename="fragment.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="text.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:09+01:00" modified="2010-09-14T16:50:09+01:00" filename="text.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

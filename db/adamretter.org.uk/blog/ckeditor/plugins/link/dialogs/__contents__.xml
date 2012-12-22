@@ -1,0 +1,9 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/adamretter.org.uk/blog/ckeditor/plugins/link/dialogs" owner="admin" group="dba" mode="755" created="2010-09-14T16:56:30+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="anchor.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:53:44+01:00" modified="2010-09-14T16:53:44+01:00" filename="anchor.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="link.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:53:44+01:00" modified="2010-09-14T16:53:44+01:00" filename="link.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

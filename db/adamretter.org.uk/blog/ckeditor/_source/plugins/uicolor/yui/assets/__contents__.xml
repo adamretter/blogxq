@@ -1,0 +1,18 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/adamretter.org.uk/blog/ckeditor/_source/plugins/uicolor/yui/assets" owner="admin" group="dba" mode="755" created="2010-09-14T16:56:30+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="hue_bg.png" owner="admin" group="dba" mode="644" created="2010-09-14T16:52:14+01:00" modified="2010-09-14T16:52:14+01:00" filename="hue_bg.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="hue_thumb.png" owner="admin" group="dba" mode="644" created="2010-09-14T16:52:14+01:00" modified="2010-09-14T16:52:14+01:00" filename="hue_thumb.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="picker_mask.png" owner="admin" group="dba" mode="644" created="2010-09-14T16:52:15+01:00" modified="2010-09-14T16:52:15+01:00" filename="picker_mask.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="picker_thumb.png" owner="admin" group="dba" mode="644" created="2010-09-14T16:52:15+01:00" modified="2010-09-14T16:52:15+01:00" filename="picker_thumb.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="yui.css" owner="admin" group="dba" mode="644" created="2010-09-14T16:52:15+01:00" modified="2010-09-14T16:52:15+01:00" filename="yui.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

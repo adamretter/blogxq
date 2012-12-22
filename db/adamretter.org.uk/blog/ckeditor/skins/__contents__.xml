@@ -1,0 +1,6 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/adamretter.org.uk/blog/ckeditor/skins" owner="admin" group="dba" mode="755" created="2010-09-14T16:56:30+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <subcollection name="v2" filename="v2"/>
+    <subcollection name="kama" filename="kama"/>
+    <subcollection name="office2003" filename="office2003"/>
+</collection>

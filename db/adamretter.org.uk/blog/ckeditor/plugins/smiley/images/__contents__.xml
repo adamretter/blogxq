@@ -1,0 +1,66 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/adamretter.org.uk/blog/ckeditor/plugins/smiley/images" owner="admin" group="dba" mode="755" created="2010-09-14T16:56:30+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="angel_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:53:57+01:00" modified="2010-09-14T16:53:57+01:00" filename="angel_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="angry_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:53:57+01:00" modified="2010-09-14T16:53:57+01:00" filename="angry_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="broken_heart.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:53:58+01:00" modified="2010-09-14T16:53:58+01:00" filename="broken_heart.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="confused_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:53:58+01:00" modified="2010-09-14T16:53:58+01:00" filename="confused_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="cry_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:53:58+01:00" modified="2010-09-14T16:53:58+01:00" filename="cry_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="devil_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:53:59+01:00" modified="2010-09-14T16:53:59+01:00" filename="devil_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="embaressed_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:53:59+01:00" modified="2010-09-14T16:53:59+01:00" filename="embaressed_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="envelope.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:53:59+01:00" modified="2010-09-14T16:53:59+01:00" filename="envelope.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="heart.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:00+01:00" modified="2010-09-14T16:54:00+01:00" filename="heart.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="kiss.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:00+01:00" modified="2010-09-14T16:54:00+01:00" filename="kiss.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="lightbulb.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:01+01:00" modified="2010-09-14T16:54:01+01:00" filename="lightbulb.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="omg_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:01+01:00" modified="2010-09-14T16:54:01+01:00" filename="omg_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="regular_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:01+01:00" modified="2010-09-14T16:54:01+01:00" filename="regular_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="sad_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:02+01:00" modified="2010-09-14T16:54:02+01:00" filename="sad_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="shades_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:02+01:00" modified="2010-09-14T16:54:02+01:00" filename="shades_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="teeth_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:02+01:00" modified="2010-09-14T16:54:02+01:00" filename="teeth_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="thumbs_down.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:03+01:00" modified="2010-09-14T16:54:03+01:00" filename="thumbs_down.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="thumbs_up.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:03+01:00" modified="2010-09-14T16:54:03+01:00" filename="thumbs_up.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="tounge_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:03+01:00" modified="2010-09-14T16:54:03+01:00" filename="tounge_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="whatchutalkingabout_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:04+01:00" modified="2010-09-14T16:54:04+01:00" filename="whatchutalkingabout_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="wink_smile.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:04+01:00" modified="2010-09-14T16:54:04+01:00" filename="wink_smile.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

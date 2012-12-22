@@ -1,0 +1,12 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/adamretter.org.uk/blog/ckeditor/_source/plugins/uicolor" owner="admin" group="dba" mode="755" created="2010-09-14T16:56:30+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="plugin.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:52:12+01:00" modified="2010-09-14T16:52:12+01:00" filename="plugin.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="uicolor.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:52:13+01:00" modified="2010-09-14T16:52:13+01:00" filename="uicolor.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="yui" filename="yui"/>
+    <subcollection name="dialogs" filename="dialogs"/>
+    <subcollection name="lang" filename="lang"/>
+</collection>

@@ -1,0 +1,183 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/adamretter.org.uk/blog/ckeditor/_source/lang" owner="admin" group="dba" mode="755" created="2010-09-14T16:56:30+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="_translationstatus.txt" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:15+01:00" modified="2010-09-14T16:50:15+01:00" filename="_translationstatus.txt" mimetype="text/plain">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="af.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:15+01:00" modified="2010-09-14T16:50:15+01:00" filename="af.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ar.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:15+01:00" modified="2010-09-14T16:50:15+01:00" filename="ar.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="bg.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:16+01:00" modified="2010-09-14T16:50:16+01:00" filename="bg.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="bn.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:16+01:00" modified="2010-09-14T16:50:16+01:00" filename="bn.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="bs.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:17+01:00" modified="2010-09-14T16:50:17+01:00" filename="bs.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ca.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:17+01:00" modified="2010-09-14T16:50:17+01:00" filename="ca.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="cs.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:18+01:00" modified="2010-09-14T16:50:18+01:00" filename="cs.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="cy.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:18+01:00" modified="2010-09-14T16:50:18+01:00" filename="cy.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="da.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:19+01:00" modified="2010-09-14T16:50:19+01:00" filename="da.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="de.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:19+01:00" modified="2010-09-14T16:50:19+01:00" filename="de.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="el.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:20+01:00" modified="2010-09-14T16:50:20+01:00" filename="el.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="en-au.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:20+01:00" modified="2010-09-14T16:50:20+01:00" filename="en-au.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="en-ca.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:20+01:00" modified="2010-09-14T16:50:20+01:00" filename="en-ca.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="en-gb.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:21+01:00" modified="2010-09-14T16:50:21+01:00" filename="en-gb.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="en.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:21+01:00" modified="2010-09-14T16:50:21+01:00" filename="en.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="eo.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:22+01:00" modified="2010-09-14T16:50:22+01:00" filename="eo.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="es.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:22+01:00" modified="2010-09-14T16:50:22+01:00" filename="es.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="et.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:23+01:00" modified="2010-09-14T16:50:23+01:00" filename="et.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="eu.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:23+01:00" modified="2010-09-14T16:50:23+01:00" filename="eu.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="fa.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:24+01:00" modified="2010-09-14T16:50:24+01:00" filename="fa.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="fi.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:24+01:00" modified="2010-09-14T16:50:24+01:00" filename="fi.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="fo.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:25+01:00" modified="2010-09-14T16:50:25+01:00" filename="fo.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="fr-ca.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:25+01:00" modified="2010-09-14T16:50:25+01:00" filename="fr-ca.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="fr.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:25+01:00" modified="2010-09-14T16:50:25+01:00" filename="fr.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="gl.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:26+01:00" modified="2010-09-14T16:50:26+01:00" filename="gl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="gu.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:26+01:00" modified="2010-09-14T16:50:26+01:00" filename="gu.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="he.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:27+01:00" modified="2010-09-14T16:50:27+01:00" filename="he.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="hi.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:27+01:00" modified="2010-09-14T16:50:27+01:00" filename="hi.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="hr.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:28+01:00" modified="2010-09-14T16:50:28+01:00" filename="hr.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="hu.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:28+01:00" modified="2010-09-14T16:50:28+01:00" filename="hu.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="is.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:29+01:00" modified="2010-09-14T16:50:29+01:00" filename="is.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="it.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:29+01:00" modified="2010-09-14T16:50:29+01:00" filename="it.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ja.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:30+01:00" modified="2010-09-14T16:50:30+01:00" filename="ja.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="km.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:30+01:00" modified="2010-09-14T16:50:30+01:00" filename="km.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ko.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:30+01:00" modified="2010-09-14T16:50:30+01:00" filename="ko.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="lt.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:31+01:00" modified="2010-09-14T16:50:31+01:00" filename="lt.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="lv.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:31+01:00" modified="2010-09-14T16:50:31+01:00" filename="lv.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="mn.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:32+01:00" modified="2010-09-14T16:50:32+01:00" filename="mn.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ms.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:32+01:00" modified="2010-09-14T16:50:32+01:00" filename="ms.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="nb.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:33+01:00" modified="2010-09-14T16:50:33+01:00" filename="nb.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="nl.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:33+01:00" modified="2010-09-14T16:50:33+01:00" filename="nl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="no.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:34+01:00" modified="2010-09-14T16:50:34+01:00" filename="no.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="pl.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:34+01:00" modified="2010-09-14T16:50:34+01:00" filename="pl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="pt-br.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:34+01:00" modified="2010-09-14T16:50:34+01:00" filename="pt-br.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="pt.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:35+01:00" modified="2010-09-14T16:50:35+01:00" filename="pt.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ro.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:35+01:00" modified="2010-09-14T16:50:35+01:00" filename="ro.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="ru.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:36+01:00" modified="2010-09-14T16:50:36+01:00" filename="ru.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="sk.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:36+01:00" modified="2010-09-14T16:50:36+01:00" filename="sk.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="sl.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:37+01:00" modified="2010-09-14T16:50:37+01:00" filename="sl.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="sr-latn.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:37+01:00" modified="2010-09-14T16:50:37+01:00" filename="sr-latn.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="sr.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:38+01:00" modified="2010-09-14T16:50:38+01:00" filename="sr.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="sv.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:38+01:00" modified="2010-09-14T16:50:38+01:00" filename="sv.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="th.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:39+01:00" modified="2010-09-14T16:50:39+01:00" filename="th.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="tr.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:39+01:00" modified="2010-09-14T16:50:39+01:00" filename="tr.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="uk.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:40+01:00" modified="2010-09-14T16:50:40+01:00" filename="uk.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="vi.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:40+01:00" modified="2010-09-14T16:50:40+01:00" filename="vi.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zh-cn.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:41+01:00" modified="2010-09-14T16:50:41+01:00" filename="zh-cn.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="zh.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:41+01:00" modified="2010-09-14T16:50:41+01:00" filename="zh.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="_languages.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:50:14+01:00" modified="2010-09-14T16:50:14+01:00" filename="_languages.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

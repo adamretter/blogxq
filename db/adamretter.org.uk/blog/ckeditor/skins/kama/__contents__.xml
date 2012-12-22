@@ -1,0 +1,22 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/adamretter.org.uk/blog/ckeditor/skins/kama" owner="admin" group="dba" mode="755" created="2010-09-14T16:56:30+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="icons.png" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:22+01:00" modified="2010-09-14T16:54:22+01:00" filename="icons.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="icons_rtl.png" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:23+01:00" modified="2010-09-14T16:54:23+01:00" filename="icons_rtl.png" mimetype="image/png">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="skin.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:26+01:00" modified="2010-09-14T16:54:26+01:00" filename="skin.js" mimetype="application/x-javascript">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="templates.css" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:26+01:00" modified="2010-09-14T16:54:26+01:00" filename="templates.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="dialog.css" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:21+01:00" modified="2010-09-14T16:54:21+01:00" filename="dialog.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="editor.css" owner="admin" group="dba" mode="644" created="2010-09-14T16:54:22+01:00" modified="2010-09-14T16:54:22+01:00" filename="editor.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="images" filename="images"/>
+</collection>

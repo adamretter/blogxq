@@ -1,0 +1,12 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/adamretter.org.uk/blog/ckeditor/_source/plugins/templates/templates/images" owner="admin" group="dba" mode="755" created="2010-09-14T16:56:30+01:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="template1.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:52:09+01:00" modified="2010-09-14T16:52:09+01:00" filename="template1.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="template2.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:52:09+01:00" modified="2010-09-14T16:52:09+01:00" filename="template2.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="template3.gif" owner="admin" group="dba" mode="644" created="2010-09-14T16:52:09+01:00" modified="2010-09-14T16:52:09+01:00" filename="template3.gif" mimetype="image/gif">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>
