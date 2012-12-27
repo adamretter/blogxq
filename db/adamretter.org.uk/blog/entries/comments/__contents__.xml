@@ -1,6 +1,0 @@
-<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/adamretter.org.uk/blog/entries/comments" owner="admin" group="dba" mode="755" created="2011-06-24T21:08:46+01:00" version="1">
-    <acl entries="0" version="1"/>
-    <resource type="XMLResource" name="deb935e0-241c-45f5-a843-6784f1d80a67.xml" owner="admin" group="dba" mode="644" created="2012-08-19T16:46:57+01:00" modified="2012-08-19T16:46:57+01:00" filename="deb935e0-241c-45f5-a843-6784f1d80a67.xml" mimetype="application/xml">
-        <acl entries="0" version="1"/>
-    </resource>
-</collection>

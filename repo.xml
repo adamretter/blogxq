@@ -1,0 +1,10 @@
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>A simple Blog application written in XQuery 1.0 and XSLT 2.0.</description>
+    <author>Adam Retter</author>
+    <website>http://www.adamretter.org.uk/</website>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>blogxq</target>
+</meta>
