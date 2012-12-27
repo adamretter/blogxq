@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:blog="http://www.adamretter.org.uk/blog" elementFormDefault="qualified" targetNamespace="http://www.adamretter.org.uk/blog">
+    <xs:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd"/>
+    <xs:element name="entry">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="blog:article"/>
+                <xs:element ref="blog:tags"/>
+            </xs:sequence>
+            <xs:attribute name="status" type="blog:articleStatusType" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="articleStatusType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="published"/>
+            <xs:enumeration value="draft"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="article">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="blog:title"/>
+                <xs:element ref="blog:sub-title"/>
+                <xs:element ref="blog:article-content"/>
+            </xs:sequence>
+            <xs:attribute name="author" use="required" type="xs:string"/>
+            <xs:attribute name="last-updated" use="optional" type="xs:dateTime"/>
+            <xs:attribute name="timestamp" use="required" type="xs:dateTime"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="title" type="xs:string"/>
+    <xs:element name="sub-title">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="xh:a"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="article-content">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="xh:img"/>
+                <xs:element ref="xh:a"/>
+                <xs:element ref="blog:mini-title"/>
+                <xs:element ref="xh:p"/>
+                <xs:element ref="xh:br"/>
+                <xs:element ref="xh:ul"/>
+                <xs:element ref="xh:table"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="mini-title">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="xh:a"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="blog:tag"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="tag" type="xs:string"/>
+</xs:schema>
