@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blog:entry xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:blog="http://www.adamretter.org.uk/blog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.adamretter.org.uk/blog http://www.adamretter.org.uk/blog/entry.xsd" status="published" id="293e6704-2bc9-4447-b53b-e21753ef5f49">
+    <blog:article timestamp="2012-08-18T18:43:00.000+01:00" author="Adam Retter" last-updated="2012-08-19T16:36:00.000+01:00">
+        <blog:title>XQuery Matching Based on Word Distance</blog:title>
+        <blog:sub-title>A distraction from work</blog:sub-title>
+        <blog:article-content>
+            <xh:p>Whilst at this moment I am meant to be preparing my sessions of the <xh:a href="http://www.xmlsummerschool.com" title="XML Summer School">XML Summer
+                    School</xh:a> this year, I was reviewing Priscilla Walmsley's slides from last
+                year and saw the following example given as a 'Search and Browse' use-case for
+                XQuery:</xh:p>
+            <xh:p>
+                <xh:q>"What medical journal articles since 2004 mention "artery" and "plaque"
+                    within 3 words of each other?"</xh:q>
+            </xh:p>
+            <xh:p>I immediately thought to myself <xh:q style="font-style: italic">'Hmm... that
+                    would be a tricky one to code in XQuery!</xh:q>. Of course the easy answer would
+                be to use the <xh:a href="http://www.w3.org/TR/xpath-full-text-10/" title="W3C XPath and XQuery Full-Text 1.0">W3C XPath and XQuery Full-Text
+                    extensions</xh:a>, for example:</xh:p>
+            <xh:pre> /journal[xs:date(@date) ge xs:date("2004-01-01")] contains text "artery" ftand
+                "plaque" distance at most 3 words </xh:pre>
+            <xh:p>Sadly however, <xh:a href="http://www.exist-db.org" title="eXist-db">eXist-db</xh:a>, which is the XQuery platform I like to use, does not implement
+                the W3C Full-Text extensions yet. Instead it has its own full-text extensions based
+                on Lucene, so in eXist-db the equivalent would be:</xh:p>
+            <xh:pre> /journal[xs:date(@date) ge xs:date("2004-01-01")][ft:query(., '“artery
+                plaque”~3')] </xh:pre>
+            <xh:p>If I stopped there however, it would be quite a short blog post. It also appears
+                from the <xh:a href="http://dev.w3.org/2007/xpath-full-text-10-test-suite/PublicPagesStagingArea/ReportedResults/XQFTTSReportSimple.html">implementation test results</xh:a> that the W3C XPath and XQuery Full-Text
+                specification is not widely implemented. So how about implementing this in pure
+                XQuery? I took the challenge, and my Solution is below.<xh:br/>I would be interested
+                to see attempts at a more elegant implementation or suggestions for
+                improvements.</xh:p>
+            <xh:pre>
+                <![CDATA[
+(:~
+: Simple search for words within a distance of each other
+:
+: Adam Retter <adam.retter@googlemail.com>
+:)
+xquery version "1.0";
+        
+declare function local:following-words($texts as text()*, $current-pos, $distance, $first as xs:boolean) {
+        
+    if(not(empty($texts)))then
+        let $text := $texts[$current-pos],
+        $next-tokens :=
+            if($first)then
+                (: ignore first word on first invokation, as its our current word :)
+                let $all-tokens := tokenize($text, " ") return
+                    subsequence($all-tokens, 2, count($all-tokens))
+            else
+                tokenize($text, " ")
+        return
+        
+            if(count($next-tokens) lt $distance)then
+            (
+                $next-tokens,
+                if($current-pos + 1 lt count($texts))then
+                    local:following-words($texts, $current-pos + 1, $distance - count($next-tokens), false())
+                else()
+            )	
+            else
+                subsequence($next-tokens, 1, $distance)
+    else()
+};
+        
+declare function local:following-words($texts as text()*, $current-pos, $distance) {
+    local:following-words($texts, $current-pos, $distance, true())
+};
+        
+declare function local:preceding-words($texts as text()*, $current-pos, $distance) {
+        
+    let $prev := $texts[$current-pos - 1] return
+        if(not(empty($prev)))then
+            let $prev-tokens := tokenize($prev, " ") return
+                if(count($prev-tokens) lt $distance)then
+                (
+                    local:preceding-words($texts, $current-pos - 1, $distance - count($prev-tokens)),
+                    $prev-tokens
+                )	
+                else
+                    subsequence($prev-tokens, count($prev-tokens) - $distance + 1, count($prev-tokens))
+        else()
+};
+        
+(:~
+: Performs a search within the text nodes for words within a distance of ech other
+:)
+declare function local:found-within($texts as text()*, $distance, $words-to-find as xs:string+) as xs:boolean {
+
+    let $results := 
+
+        for $text at $current-pos in $texts
+        let $current-word := tokenize($text, " ")[1],
+        $preceding-words := local:preceding-words($texts, $current-pos, $distance),
+        $following-words := local:following-words($texts, $current-pos, $distance)
+        return
+
+            for $word at $i in $words-to-find
+            let $other-words-to-find := $words-to-find[position() ne $i]
+            return
+                if($current-word eq $word and ($other-words-to-find = $preceding-words or $other-words-to-find = $following-words))then
+                    true()
+                else
+                    false()
+
+    return $results = true()            
+};
+        
+(:~
+: Just for debugging to help people understand
+:)
+declare function local:debug($texts as text()*, $current-pos, $distance) {
+    <group distnace="{$distance}">
+        <text>{$texts[$current-pos]}</text>
+        <preceding-words>
+            {
+            let $preceding := local:preceding-words($texts, $current-pos, $distance) return
+                $preceding
+            }
+        </preceding-words>
+        <current-word>{tokenize($texts[$current-pos], " ")[1]}</current-word>
+        <following-words>
+        {
+            let $following := local:following-words($texts, $current-pos, $distance) return
+                $following
+        }
+        </following-words>
+    </group>
+};
+        
+(: params :)
+let $words-to-find := ("artery", "plaque"),
+$distance := 3 return
+        
+    (: main :)    
+    for $journal in /journal
+    [xs:date(@date) ge xs:date("2004-01-01")]
+    [local:found-within(.//text(), $distance, $words-to-find)]
+    return
+        $journal
+        
+        (: comment out the above flwor and uncomment below, to see debugging output :)
+        (:
+        for $journal in /journal[xs:date(@date) ge xs:date("2004-01-01")]
+        let $texts := $journal//text() return
+            for $current-pos in (1 to count($texts)) return 
+                local:debug($texts, $current-pos, $distance)	  
+        :)
+        ]]></xh:pre>
+        </blog:article-content>
+    </blog:article>
+    <blog:tags>
+        <blog:tag>XQuery</blog:tag>
+        <blog:tag>Full-Text</blog:tag>
+        <blog:tag>Search</blog:tag>
+        <blog:tag>eXist-db</blog:tag>
+    </blog:tags>
+</blog:entry>

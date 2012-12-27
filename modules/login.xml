@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../site.xslt"?>
+<ars:page xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:ars="http://www.adamretter.org.uk" xmlns:og="http://opengraphprotocol.org/schema/">
+    <ars:content>
+        <ars:main>
+            <ars:title>Login</ars:title>
+            <ars:sub-title/>
+            <xh:div>
+                <xh:form method="post">
+                    <xh:label for="uid">Username: </xh:label>
+                    <xh:input type="text" id="uid" name="uid"/>
+                    <xh:label for="pwd">Password: </xh:label>
+                    <xh:input type="secret" id="pwd" name="pwd"/>
+                    <xh:input type="submit" value="Login"/>
+                </xh:form>
+            </xh:div>
+        </ars:main>
+    </ars:content>
+</ars:page>

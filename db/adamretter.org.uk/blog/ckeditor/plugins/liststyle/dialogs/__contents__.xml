@@ -1,6 +1,0 @@
-<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/adamretter.org.uk/blog/ckeditor/plugins/liststyle/dialogs" owner="admin" group="dba" mode="755" created="2010-09-14T16:56:30+01:00" version="1">
-    <acl entries="0" version="1"/>
-    <resource type="BinaryResource" name="liststyle.js" owner="admin" group="dba" mode="644" created="2010-09-14T16:53:46+01:00" modified="2010-09-14T16:53:46+01:00" filename="liststyle.js" mimetype="application/x-javascript">
-        <acl entries="0" version="1"/>
-    </resource>
-</collection>
